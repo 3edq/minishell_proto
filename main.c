@@ -1,11 +1,5 @@
 #include "minishell.h"
 
-// void signal_handler(int sig)
-// {
-//    if (sig == SIGINT)
-//        printf("\nminishell> ");
-// }
-
 int	main(int argc, char **argv, char **env)
 {
 	char	*input;
